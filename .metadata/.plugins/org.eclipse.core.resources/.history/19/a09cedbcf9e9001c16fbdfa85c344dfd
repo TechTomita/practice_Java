@@ -1,0 +1,14 @@
+package sample;
+
+public class Main {
+
+	public static void main(String[] args) {
+		boolean tenki = false;
+		
+		if (tenki == true) {
+			System.out.println("good");
+		} else {
+			System.out.println("no");
+		}
+	}
+}

@@ -1,0 +1,16 @@
+package sample;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int fortune = new java.util.Random().nextInt(4) + 1;
+		
+		if (fortune < 3) {
+			System.out.println("no");
+		} else if (fortune == 3) {
+			System.out.println("happy");
+		} else {
+			System.out.println("4");
+		}
+	}
+}

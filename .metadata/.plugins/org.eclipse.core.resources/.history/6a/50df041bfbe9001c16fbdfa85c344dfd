@@ -1,0 +1,19 @@
+package sample;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int fortune = new java.util.Random().nextInt(4) + 1;
+		
+		switch(fortune) {
+		case 1:
+			System.out.println("hello");
+			break;
+		case 2:
+			System.out.println("good");
+			break;
+		default:
+			System.out.println(fortune);
+		}
+	}
+}

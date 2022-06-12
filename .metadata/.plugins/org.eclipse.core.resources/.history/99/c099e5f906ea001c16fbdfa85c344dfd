@@ -1,0 +1,15 @@
+package com.gmail.tachtomita.javapractice;
+
+public class BmiCalc {
+
+	public static void main(String[] args) {
+		double weight, height, bmi;
+		weight = 71;
+		height = 1.8;
+		bmi = weight / (height * height);
+		
+		System.out.println(bmi);
+
+	}
+
+}
